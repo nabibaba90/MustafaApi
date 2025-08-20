@@ -151,7 +151,7 @@ def api_proxy(api_name):
 
         # Özel mesaj engelleme: info varsa değiştir
         if isinstance(data, dict) and "info" in data:
-            data["info"] = "Hata alırsanız @Keneviz Telegram’dan ulaşabilirsiniz."
+            data["info"] = "Hata alırsanız @obezoc Telegram’dan ulaşabilirsiniz."
 
         # Gelen cevap içindeki 'source' alanlarını normalize et
         normalize_source_in_response(data)
