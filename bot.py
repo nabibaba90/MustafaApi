@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # bot.py - VIP Sorgu Paneli (Tüm API + Güvenlik Katmanları)
 # Ek: Gelen cevaplara sahip + telegram kanal bilgisi eklenir.
-# Sahip: @Keneviiz
+# Sahip: Mustafa PROGRAMMER
 # Telegram kanal: http://T.me/KenevizApiSystem
 
 from flask import Flask, request, jsonify, Response
